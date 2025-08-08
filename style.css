@@ -1,6 +1,7 @@
 .container{
+    margin: 0px;
     /* border: 2px solid green; */
-    height: 600px;
+    /* height: 600px; */
     /* max-width: 1200px; */
     margin-left: 200px;
     margin-right: 200px;
@@ -27,7 +28,7 @@ span{
 .container2{
     /* border: 2px solid red; */
     height: 600px;
-    margin-top: 300px;
+    
     margin-left: 200px;
     margin-right: 200px;
     
