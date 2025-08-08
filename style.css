@@ -1,15 +1,16 @@
 .container{
     /* border: 2px solid green; */
     height: 600px;
-    
+    /* max-width: 1200px; */
     margin-left: 200px;
     margin-right: 200px;
     
   
 }
 
-img{
+.container img{
     width: 100%;
+    display: block;
 }
 .center{
     position: absolute;
@@ -20,6 +21,7 @@ span{
     background-color: #000000;
     color: white;
     padding: 20px;
+    font-size:20px;
 }
 
 .container2{
@@ -47,6 +49,11 @@ span{
    
     
 }
+.image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
 
 .child-2{
     display: inline-block;
@@ -72,15 +79,14 @@ span{
     /* height:300px ; */
      position: relative;
 }
-image{
-    width: 100%;
-}
+
 
 h3{
     background-color: black;
     color: white;
     padding: 15px;
     margin: 0px;
+    font-size: 15px;
     position: absolute;
     top: 0px;
     left: 0px;
@@ -89,5 +95,15 @@ h3{
 .container4{
     /* border:2px solid green; */
     height: 300px;
+    margin-top: 40px;
 
+}
+
+.container2 h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.container2 hr {
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
 }
